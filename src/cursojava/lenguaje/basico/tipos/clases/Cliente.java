@@ -1,5 +1,6 @@
 package cursojava.lenguaje.basico.tipos.clases;
 
+import java.io.Serializable;
 import java.util.Objects;
 import java.util.UUID;
 
@@ -7,7 +8,7 @@ import cursojava.lenguaje.basico.tipos.anotaciones.ControlCalidad;
 import cursojava.lenguaje.basico.tipos.interfaces.Catalogable;
 
 @ControlCalidad
-public class Cliente extends Object implements Catalogable, Cloneable, Comparable<Cliente> {	
+public class Cliente extends Object implements Catalogable, Cloneable, Comparable<Cliente>, Serializable {	
 	
 	/*
 	 Visibilidad
