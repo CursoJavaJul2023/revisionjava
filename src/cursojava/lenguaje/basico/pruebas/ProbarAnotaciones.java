@@ -5,6 +5,7 @@ import java.lang.annotation.Annotation;
 import cursojava.lenguaje.basico.tipos.anotaciones.ControlCalidad;
 import cursojava.lenguaje.basico.tipos.clases.Cliente;
 
+
 public class ProbarAnotaciones {
 	
 	public static void main(String[] args) throws ClassNotFoundException {		
